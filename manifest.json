@@ -3,13 +3,9 @@
   "name": "Hide Credentials",
   "version": "1.0",
   "description": "Расширение для скрытия логина и пароля при регистрации",
-  "icons": {
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
   "action": {
     "default_popup": "popup/popup.html",
-    "default_icon": "icons/icon48.png"
+    "default_title": "Hide Credentials"
   },
   "permissions": ["activeTab", "storage"],
   "background": {
